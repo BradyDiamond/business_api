@@ -1,24 +1,39 @@
-# README
+# (product store with reviews!)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### By (Brady Diamond)
 
-Things you may want to cover:
+## Technologies Used
 
-* Ruby version
+* _RUBY_
+* _postman_
+* _faker_
+* _will_paginate_
+* _faker_
 
-* System dependencies
+## Description
 
-* Configuration
+* _This application will let you set up products and assign costs and reviews to them_
 
-* Database creation
+## Setup/Installation Requirements
 
-* Database initialization
+* _clone github repository_
+* _install Postgres on your computer_
+* _install correct version of Ruby (2.6.10)_
+* _put gem "faker" and gem "will_paginate" into gemfile_
+* _install bundler and run it in the projects directory from the console_
+* _Type "rails s" into the console and navigate to local server "localhost:3000"_
+* _navigate to postman_
+* _enter your product and review info_
+* _to edit your user must be an admin: follow instructions below_
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Known Bugs
 
-* ...
+* _currently no known bugs_
+
+## License
+_licensed under the [MIT License] (LICENSE)_
+
+_Copyright (c) _2022_ _Brady Diamond_ 
+## Contact Information
