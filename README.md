@@ -26,10 +26,15 @@
 * _Type "rails s" into the console and navigate to local server "localhost:3000"_
 * _navigate to postman_
 * _enter http://localhost:3000/businesses/_
-* _ENDPOINTS_
-* _ENDPOINTS_
-* _ENDPOINTS_
-* _ENDPOINTS_
+* _retrieve 20 businesses(get): http://localhost:3000/businesses_
+* _retrieve desired page of businesses(get): http://localhost:3000/businesses/?page=(desired page number)_
+* _add a business to DB(post): http://localhost:3000/businesses?name=[params]&location=[params]_
+* _update a business DB(put): http://localhost:3000/businesses/:id?name=[params]&location=[params]_
+* _delete a business from DB(delete): http://localhost:3000/businesses/:id_
+
+## further exploration 
+* _results return in a paginated structure (will_paginate) _
+* _to see next page append request with "/?page=(desired page number)_
 
 
 ## Known Bugs
