@@ -1,4 +1,4 @@
-# (product store with reviews!)
+# (local business API)
 
 #### By (Brady Diamond)
 
@@ -8,6 +8,7 @@
 * _postman_
 * _faker_
 * _will_paginate_
+* _Factory Bot_
 * _faker_
 
 ## Description
@@ -23,9 +24,8 @@
 * _install bundler and run it in the projects directory from the console_
 * _Type "rails s" into the console and navigate to local server "localhost:3000"_
 * _navigate to postman_
-* _enter your product and review info_
-* _to edit your user must be an admin: follow instructions below_
-
+* _enter http://localhost:3000/businesses/_
+* _ENDPOINTS_
 
 
 ## Known Bugs
