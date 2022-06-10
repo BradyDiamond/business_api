@@ -3,8 +3,6 @@ require 'rails_helper'
 describe "get all paginated businesses route", :type => :request do
   let!(:businesses) { FactoryBot.create_list(:business, 20)}
 
-  # before { get '/businesses'}
-
   it 'returns paginated businesses' do
     get '/businesses'
     expect(JSON.parse(response.body).size).to eq(5)
