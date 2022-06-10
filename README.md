@@ -5,6 +5,7 @@
 ## Technologies Used
 
 * _RUBY_
+* _Rails_
 * _postman_
 * _faker_
 * _will_paginate_
@@ -13,7 +14,7 @@
 
 ## Description
 
-* _This application will let you set up products and assign costs and reviews to them_
+* _This application is an API that allows users to fetch information about restaurants_
 
 ## Setup/Installation Requirements
 
@@ -25,6 +26,9 @@
 * _Type "rails s" into the console and navigate to local server "localhost:3000"_
 * _navigate to postman_
 * _enter http://localhost:3000/businesses/_
+* _ENDPOINTS_
+* _ENDPOINTS_
+* _ENDPOINTS_
 * _ENDPOINTS_
 
 
