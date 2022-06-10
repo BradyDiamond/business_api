@@ -7,3 +7,4 @@ describe "delete a business route", :type => :request do
   expect(reponse.body).to eq("This business has been sucessfully deleted" )
   end
 end  
+
