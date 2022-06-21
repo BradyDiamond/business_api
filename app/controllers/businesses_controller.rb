@@ -25,8 +25,8 @@ class BusinessesController < ApplicationController
   end
 
   def destroy
-    @business = Business.find(params[:id])
-    if @business.destroy!(business_params)
+    @business = Business.find(params[:id]).destroy!
+    if @business.destroy!
       render status: 200, json: {
         message: "This business has been sucessfully deleted" 
       }
